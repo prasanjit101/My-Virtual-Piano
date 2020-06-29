@@ -1,12 +1,12 @@
-
-
-document.getElementById("myFrequency").onclick = function() {
-    var context = new AudioContext();
-    var o = context.createOscillator();
-    var frequency = 440.0
-    o.type = "sine";
-    o.connect(context.destination);
-    o.frequency.value = 830.6;
-    o.detune.value;
-    o.start();
-}
+<button class="white-key B2-key"></button>
+<button class="white-key C2-key"></button>
+<button class="black-key C#2-key"></button>
+<button class="white-key D2-key"></button>
+<button class="black-key D#2-key"></button>
+<button class="white-key E2-key"></button>
+<button class="white-key F2-key"></button>
+<button class="black-key F#2-key"></button>
+<button class="white-key G2-key"></button>
+<button class="black-key G#2-key"></button>
+<button class="white-key A2-key"></button>
+<button class="black-key A#2-key"></button>
